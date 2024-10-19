@@ -16,3 +16,9 @@ A few important things here to note
 * Save the password you used to configure the user during this process
 * If you are going to use an API token the same goes
 * The password **cannot** contain any special characters
+* When creating the API Token make sure you **uncheck** privilege seperation. This can be done later as well.
+
+## Usage
+* Run `terraform init`
+* Source the .env file `source .env` 
+* Run `terraform apply`
